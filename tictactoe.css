@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  background: black;
+}
+.overAllBox {
+  width: 40%;
+  margin: 20px auto;
+  overflow: auto;
+}
+.insideBox {
+  cursor: pointer;
+  float: left;
+  width:33%;
+  height: 155px;
+  border-radius: 20%;
+  border: 1px solid green;
+  text-align: center;
+  line-height: 1.25;
+  font-size: 120px;
+}
+.insideBox:hover {
+  background: teal;
+}
+/*this raindbow background stuff only works with inline-block elements so I made a span inside of the h1 to better control color and positioning*/
+h1 {
+  text-align: center;
+}
+span {
+  font-family: cursive;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  background-clip: text;
+}
+h5 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
