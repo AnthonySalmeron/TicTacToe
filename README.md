@@ -10,5 +10,6 @@
 - Created variables to keep track of the # of clicks and the player's turn
 - Attached an event listener to the overall section so there's no need to do so for every one individually
 - Upon each click, a function ran to increase the clicks counter, to change the text content of the chosen box, and to run a check for winners
-- If somebody wins, an alert tells them they've won, otherwise, an alert activates at nine clicks if nbobody won
+- If somebody wins, an alert tells them they've won, otherwise, an alert activates at nine clicks if nobody won
+
 link: https://quizzical-gates-91a728.netlify.com
