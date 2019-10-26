@@ -11,4 +11,4 @@
 - Attached an event listener to the overall section so there's no need to do so for every one individually
 - Upon each click, a function ran to increase the clicks counter, to change the text content of the chosen box, and to run a check for winners
 - If somebody wins, an alert tells them they've won, otherwise, an alert activates at nine clicks if nbobody won
-link: https://frosty-morse-04ba0c.netlify.com
+link: https://quizzical-gates-91a728.netlify.com
